@@ -1,0 +1,55 @@
+{
+  "name": "seed-app",
+  "version": "1.0.0",
+  "description": "Database seeding application for Plane app",
+  "main": "dist/generate.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/generate.ts",
+    "start": "node dist/generate.js",
+    "generate": "tsx src/generate.ts",
+    "import": "tsx src/import.ts",
+    "reset": "tsx src/reset.ts",
+    "seed": "tsx src/generate.ts && tsx src/import.ts",
+    "consumer": "tsx src/kafkaConsumer.ts",
+    "consumer:dev": "tsx watch src/kafkaConsumer.ts",
+    "reporter": "tsx src/reporter.ts",
+    "reporter:dev": "tsx watch src/reporter.ts",
+    "health": "tsx src/healthCheck.ts",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "express": "^4.21.2",
+    "faker-js": "^1.0.0",
+    "kafkajs": "^2.2.4",
+    "openai": "^4.87.3",
+    "pg": "^8.14.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.23",
+    "@types/node": "^18.19.86",
+    "@types/pg": "^8.11.11",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.3"
+  },
+  "keywords": [
+    "database",
+    "seeding",
+    "plane",
+    "postgresql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+}

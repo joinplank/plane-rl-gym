@@ -1,0 +1,18 @@
+[
+  {
+    "created_by_id": "86151c5e-2eb7-46d4-9bd9-d60356e4467e",
+    "created_at": "2025-05-10T16:12:35.850Z",
+    "updated_at": "2025-07-03T16:36:02.441Z",
+    "id": "f6211bab-481d-4aa7-ab0a-a7058e81cdb4",
+    "role": 20,
+    "member_id": "86151c5e-2eb7-46d4-9bd9-d60356e4467e",
+    "updated_by_id": "86151c5e-2eb7-46d4-9bd9-d60356e4467e",
+    "workspace_id": "94984560-6955-4bea-98a2-28abe3c598e8",
+    "company_role": null,
+    "view_props": "{\"filters\":{\"state\":null,\"labels\":null,\"priority\":null,\"assignees\":null,\"created_by\":null,\"start_date\":null,\"subscriber\":null,\"state_group\":null,\"target_date\":null},\"display_filters\":{\"type\":null,\"layout\":\"list\",\"group_by\":null,\"order_by\":\"-created_at\",\"sub_issue\":true,\"show_empty_groups\":true,\"calendar_date_range\":\"\"},\"display_properties\":{\"key\":true,\"link\":true,\"state\":true,\"labels\":true,\"assignee\":true,\"due_date\":true,\"estimate\":true,\"priority\":true,\"created_on\":true,\"start_date\":true,\"updated_on\":true,\"sub_issue_count\":true,\"attachment_count\":true}}",
+    "default_props": "{\"filters\":{\"state\":null,\"labels\":null,\"priority\":null,\"assignees\":null,\"created_by\":null,\"start_date\":null,\"subscriber\":null,\"state_group\":null,\"target_date\":null},\"display_filters\":{\"type\":null,\"layout\":\"list\",\"group_by\":null,\"order_by\":\"-created_at\",\"sub_issue\":true,\"show_empty_groups\":true,\"calendar_date_range\":\"\"},\"display_properties\":{\"key\":true,\"link\":true,\"state\":true,\"labels\":true,\"assignee\":true,\"due_date\":true,\"estimate\":true,\"priority\":true,\"created_on\":true,\"start_date\":true,\"updated_on\":true,\"sub_issue_count\":true,\"attachment_count\":true}}",
+    "issue_props": "{\"created\":true,\"assigned\":true,\"all_issues\":true,\"subscribed\":true}",
+    "is_active": 1,
+    "deleted_at": null
+  }
+]

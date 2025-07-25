@@ -1,0 +1,32 @@
+{
+  "name": "plane-postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "plane-db",
+    "database.port": "5432",
+    "database.user": "plane",
+    "database.password": "plane",
+    "database.dbname": "plane",
+    "database.server.name": "plane",
+    "topic.prefix": "plane",
+    "table.include.list": "public.workspaces,public.projects,public.states,public.labels,public.issues,public.cycles,public.modules,public.pages,public.workspace_members,public.project_members,public.issue_assignees,public.module_members,public.project_pages,public.cycle_issues,public.workspace_member_invites,public.issue_views,public.issue_activities,public.issue_subscribers,public.module_issues",
+    "plugin.name": "pgoutput",
+    "publication.name": "plane_publication",
+    "slot.name": "plane_slot",
+    "transforms": "route",
+    "transforms.route.type": "org.apache.kafka.connect.transforms.RegexRouter",
+    "transforms.route.regex": "([^.]+)\\.([^.]+)\\.([^.]+)",
+    "transforms.route.replacement": "$1.public.$3",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter.schemas.enable": "false",
+    "include.schema.changes": "false",
+    "provide.transaction.metadata": "false",
+    "tombstones.on.delete": "false",
+    "decimal.handling.mode": "precise",
+    "time.precision.mode": "adaptive_time_microseconds",
+    "interval.handling.mode": "string"
+  }
+} 

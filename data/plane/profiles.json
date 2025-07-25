@@ -1,0 +1,25 @@
+[
+  {
+    "created_at": "2025-07-23 18:11:18.280507+00",
+    "updated_at": "2025-07-23 21:35:29.516675+00",
+    "id": "665571f7-fa4e-4c0b-8210-5286d5dd2700",
+    "theme": "{}",
+    "is_tour_completed": true,
+    "onboarding_step": "{\"workspace_join\": true, \"profile_complete\": true, \"workspace_create\": true, \"workspace_invite\": true}",
+    "use_case": "Product",
+    "role": "Senior Leader",
+    "is_onboarded": true,
+    "last_workspace_id": "94984560-6955-4bea-98a2-28abe3c598e8",
+    "billing_address_country": "INDIA",
+    "billing_address": null,
+    "has_billing_address": false,
+    "company_name": "xai",
+    "user_id": "86151c5e-2eb7-46d4-9bd9-d60356e4467e",
+    "is_mobile_onboarded": false,
+    "mobile_onboarding_step": "{\"workspace_join\": false, \"profile_complete\": false, \"workspace_create\": false}",
+    "mobile_timezone_auto_set": false,
+    "language": "en",
+    "is_smooth_cursor_enabled": false,
+    "start_of_the_week": 0
+  }
+]

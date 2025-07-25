@@ -1,0 +1,14 @@
+[
+  {
+    "created_at": "2025-07-23 18:11:18.291803+00",
+    "updated_at": "2025-07-23 18:11:18.291809+00",
+    "id": "1c64c2eb-69c2-4f50-871a-b043f19d942a",
+    "role": 20,
+    "is_verified": false,
+    "created_by_id": null,
+    "instance_id": "c958bccc-7995-48cb-80fa-4045526d0372",
+    "updated_by_id": null,
+    "user_id": "86151c5e-2eb7-46d4-9bd9-d60356e4467e",
+    "deleted_at": null
+  }
+]
